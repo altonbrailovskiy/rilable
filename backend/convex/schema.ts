@@ -40,3 +40,4 @@ export default defineSchema({
     content: v.string(),
   }).index("by_project", ["projectId"]),
 });
+
